@@ -1595,7 +1595,7 @@ ownCloudZimlet.prototype.setTemplate = function ()
 {
    if(!document.getElementById('owncloud_zimlet_template').value)
    {
-      document.getElementById('owncloud_zimlet_template').value = 'Hello,\r\n\r\n{displayname} shared the following link(s) with you:\r\n\r\n{links}\r\n\r\n[password]You need the following password to access the link(s): {password}\r\n[/password][expiration]The link(s) expire on {expiration}.\r\n[/expiration]\r\n\r\nBest regards,\r\n\r\n\{displayname}';
+      document.getElementById('owncloud_zimlet_template').value = 'Ol\u00e1,\r\n\r\n{displayname} compartilhou o(s) seguinte(s) arquivo(s) com voc\u00ea:\r\n\r\n{links}\r\n\r\n[password]Voc\u00ea precisa informar a seguinte senha para acessar o(s) arquivo(s): {password}\r\n[/password][expiration]O(s) link(s) expiram em {expiration}.\r\n[/expiration]';
    }
 };
 
